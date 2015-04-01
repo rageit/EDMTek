@@ -57,6 +57,11 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="assets\fonts\fontawesome-webfont.eot" />
+    <Content Include="assets\fonts\fontawesome-webfont.ttf" />
+    <Content Include="assets\fonts\fontawesome-webfont.woff" />
+    <Content Include="assets\fonts\FontAwesome.otf" />
+    <Content Include="assets\js\fancybox\Descr.WD3" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -65,6 +70,66 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="about.html" />
+    <Content Include="assets\css\bootstrap-theme.css" />
+    <Content Include="assets\css\bootstrap.min.css" />
+    <Content Include="assets\css\da-slider.css" />
+    <Content Include="assets\css\font-awesome.css" />
+    <Content Include="assets\css\font-awesome.min.css" />
+    <Content Include="assets\css\isotope.css" />
+    <Content Include="assets\css\style.css" />
+    <Content Include="assets\fonts\fontawesome-webfont.svg" />
+    <Content Include="assets\images\1.jpg" />
+    <Content Include="assets\images\2.jpg" />
+    <Content Include="assets\images\about.jpg" />
+    <Content Include="assets\images\arrows.png" />
+    <Content Include="assets\images\bg_header - Copy.jpg" />
+    <Content Include="assets\images\bg_header.jpg" />
+    <Content Include="assets\images\favicon.png" />
+    <Content Include="assets\images\img1.jpg" />
+    <Content Include="assets\images\img2.jpg" />
+    <Content Include="assets\images\img3.jpg" />
+    <Content Include="assets\images\img4.jpg" />
+    <Content Include="assets\images\logo.png" />
+    <Content Include="assets\images\person_1.png" />
+    <Content Include="assets\images\person_2.png" />
+    <Content Include="assets\images\person_3.png" />
+    <Content Include="assets\images\portfolio\img1.jpg" />
+    <Content Include="assets\images\portfolio\img2.jpg" />
+    <Content Include="assets\images\portfolio\img3.jpg" />
+    <Content Include="assets\images\portfolio\img4.jpg" />
+    <Content Include="assets\images\portfolio\img5.jpg" />
+    <Content Include="assets\images\portfolio\img6.jpg" />
+    <Content Include="assets\images\portfolio\img7.jpg" />
+    <Content Include="assets\images\portfolio\img8.jpg" />
+    <Content Include="assets\images\portfolio\img9.jpg" />
+    <Content Include="assets\images\spotlight.jpeg" />
+    <Content Include="assets\js\custom.js" />
+    <Content Include="assets\js\fancybox\blank.gif" />
+    <Content Include="assets\js\fancybox\fancybox_loading.gif" />
+    <Content Include="assets\js\fancybox\fancybox_loading_402x.gif" />
+    <Content Include="assets\js\fancybox\fancybox_overlay.png" />
+    <Content Include="assets\js\fancybox\fancybox_sprite.png" />
+    <Content Include="assets\js\fancybox\fancybox_sprite_402x.png" />
+    <Content Include="assets\js\fancybox\jquery.fancybox.css" />
+    <Content Include="assets\js\fancybox\jquery.fancybox.pack.js" />
+    <Content Include="assets\js\google-map.js" />
+    <Content Include="assets\js\headroom.min.js" />
+    <Content Include="assets\js\html5shiv.js" />
+    <Content Include="assets\js\jquery.cslider.js" />
+    <Content Include="assets\js\jQuery.headroom.min.js" />
+    <Content Include="assets\js\jquery.isotope.min.js" />
+    <Content Include="assets\js\modernizr-latest.js" />
+    <Content Include="assets\js\respond.min.js" />
+    <Content Include="contact-list.html" />
+    <Content Include="contact.html" />
+    <Content Include="index.html" />
+    <Content Include="portfolio.html" />
+    <Content Include="services.html" />
+    <Content Include="sidebar-left.html" />
+    <Content Include="sidebar-right.html" />
+    <Content Include="signin.html" />
+    <Content Include="signup.html" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
