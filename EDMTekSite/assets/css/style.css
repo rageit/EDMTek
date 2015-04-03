@@ -55,9 +55,7 @@ element.style {
 z-index: 9999;
 }
 .btn-action, .btn-primary {
-color: #FFEFD7;
-background-image: -webkit-linear-gradient(top, #1ACEA9 0%, #149E82 100%);
-background-image: linear-gradient(to bottom, #1ACEA9 0%, #149E82 100%);
+    color: #FFEFD7;
 }
 /* Header */
 #head {
