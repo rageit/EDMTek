@@ -128,6 +128,8 @@
     <Content Include="services.html" />
     <Content Include="sidebar-left.html" />
     <Content Include="sidebar-right.html" />
+    <Content Include="signin.html" />
+    <Content Include="signup.html" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
