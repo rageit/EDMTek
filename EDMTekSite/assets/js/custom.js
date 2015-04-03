@@ -16,11 +16,11 @@ jQuery(document).ready(function($) {
 	});
 	//Set the carousel options
 	$('#quote-carousel').carousel({
-		pause: true,
-		interval: 4000,
+	    pause: true,
+		interval: 4000
 	});
 	// fancybox
-	$(".fancybox").fancybox();
+	//$(".fancybox").fancybox();
 	//isotope
 	if ($('.isotopeWrapper').length) {
 		var $container = $('.isotopeWrapper');
