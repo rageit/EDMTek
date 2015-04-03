@@ -78,12 +78,12 @@ function sendMail(formObj) {
         type: 'POST',
         url: 'https://mandrillapp.com/api/1.0/messages/send.json',
         data: {
-            'key': 'GYYVAocmRLtLD-F3TDB9ag',
+            'key': 'BVXvqpA5lL7r7sJOX_DZGA',
             'message': {
                 'from_email': formObj["emailId"].value,
                 'to': [
                     {
-                        'email': 'rejanlikesraisin@hotmail.com',
+                        'email': 'info@mcgtek.com',
                         'name': 'MCGTek',
                         'type': 'to'
                     }

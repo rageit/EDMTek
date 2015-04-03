@@ -1,6 +1,6 @@
-Based on Bootstrap.
-
-Contact
+Email
 -------
-rejanlikesraisin@gmail.com
+Uses mandrillapp.com
+usr: info@mcgtek.com
+pwd: mcgtekPassword1
 
