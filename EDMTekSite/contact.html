@@ -29,21 +29,12 @@
 				<a class="navbar-brand" href="index.html"><img src="assets/images/logo.png" alt="MCG Consulting Inc."></a>
 			</div>
 			<div class="navbar-collapse collapse">
-				<ul class="nav navbar-nav pull-right">
-					<li><a href="index.html">Home</a></li>
-					<li><a href="about.html">About</a></li><li><a href="services.html">Services</a></li><li><a href="portfolio.html">Portfolio</a></li>					
-					<li class="dropdown">
-						<a href="#" class="dropdown-toggle" data-toggle="dropdown">Pages <b class="caret"></b></a>
-						<ul class="dropdown-menu">
-							<li><a href="sidebar-right.html">Right Sidebar</a></li>
-							<li><a href="#">Dummy Link1</a></li>
-							<li><a href="#">Dummy Link2</a></li>
-							<li><a href="#">Dummy Link3</a></li>
-						</ul>
-					</li>
-					<li class="active"><a href="contact.html">Contact</a></li>
-					
-				</ul>
+                <ul class="nav navbar-nav pull-right">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li class="active"><a href="contact.html">Contact</a></li>
+
+                </ul>
 			</div><!--/.nav-collapse -->
 		</div>
 	</div> 
@@ -63,50 +54,68 @@
 				</header>
 				
 				<p>
-					We’d love to hear from you. Interested in working together? Fill out the form below with some info about your project and I will get back to you as soon as I can. Please allow a couple days for me to respond.
+					We'd love to hear from you. Interested in working together? Fill out the form below with some info about your project and I will get back to you as soon as I can. Please allow a couple days for me to respond.
 				</p>
 				<br>
-					<form>
-						<div class="row">
-							<div class="col-sm-12">
-								<input class="form-control" type="text" placeholder="Name"><br/>
-							</div>
-							<div class="col-sm-12">
-								<input class="form-control" type="text" placeholder="Email ID"><br/>
-							</div>
-							<div class="col-sm-12">
-								<input class="form-control" type="text" placeholder="Phone No."><br/>
-							</div>
-						</div>
-						<div class="row">
-							<div class="col-sm-12">
-								<textarea placeholder="Type your message here..." class="form-control" rows="9"></textarea>
-							</div>
-						</div>
-						<br>
-						<div class="row">
-							<div class="col-sm-6">
-								<input class="btn btn-action pull-left" type="submit" value="Send message">
-							</div>
-							<div class="col-sm-6 text-right">
-								
-							</div>
-						</div>
-					</form>
+			    <form action="#" onsubmit="return sendMail(this);">
+			        <div class="row">
+			            <div class="col-sm-12">
+			                <input id="name" class="form-control" type="text" placeholder="Name"><br />
+			            </div>
+			            <div class="col-sm-12">
+			                <input id="emailId" class="form-control" type="text" placeholder="Email ID"><br />
+			            </div>
+			            <div class="col-sm-12">
+			                <input id="phoneNo" class="form-control" type="text" placeholder="Phone No."><br />
+			            </div>
+			        </div>
+			        <div class="row">
+			            <div class="col-sm-12">
+			                <textarea id="message" placeholder="Type your message here..." class="form-control" rows="9"></textarea>
+			            </div>
+			        </div>
+			        <br>
+			        <div class="row">
+			            <div class="col-sm-6">
+                            <input class="btn btn-action pull-left" data-target="#myModal" type="submit" value="Send message">
+			            </div>
+			            <div class="col-sm-6 text-right">
+
+			            </div>
+			        </div>
+			    </form>
+                <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                                <h4 class="modal-title">Done</h4>
+                            </div>
+                            <div class="modal-body">
+                                <p>Your message has been sent. We will reply as soon as possible.&hellip;</p>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                            </div>
+                        </div><!-- /.modal-content -->
+                    </div><!-- /.modal-dialog -->
+                </div><!-- /.modal -->
 
 			</article>
 			<!-- /Article -->
 			
 			<!-- Sidebar -->
 			<aside class="col-sm-3 sidebar sidebar-right">
-
-				<div class="panel contact">
-					<h4>Address</h4>
-					<ul>
-						  <li><i class="fa fa-phone"></i>&nbsp;718-915-3545</li>
-						  <li><a href="#"><i class="fa fa-envelope-o"></i>&nbsp;rejanlikesraisin@hotmail.com</a></li>
-						  <li><i class="fa fa-flag"></i>&nbsp;Columbia Mall Drive, Bloomsburg, PA 17815</li>
-				   </ul> 
+                <div class="panel contact">
+                    <h4>Address</h4>
+                    <div class="panel-body">
+                    <p>Mallon Consulting Group</p>
+                    <ul>
+                        <li><i class="fa fa-phone"></i>&nbsp;410-375-1493</li>
+                        <li><a href="mailto:info@mcgtek.com"><i class="fa fa-envelope-o"></i>&nbsp;info@mcgtek.com</a></li>
+                        <li><i class="fa fa-flag"></i>&nbsp;6305 Canyon Head Lane, Columbia, Maryand 21045</li>
+                    </ul>
+                </div>
 				</div>
 
 			</aside>
@@ -121,46 +130,6 @@
 	
 		<footer id="footer" class="top-space">
 
-		<div class="footer1">
-			<div class="container">
-				<div class="row">
-					<div class="col-md-5 panel">
-						<h3 class="panel-title">Latest News</h3>
-						<div class="panel-body">
-							<p>Lorem ipsum dolor amet, consectetur adipiscing elit. Aenean leo lectus sollicitudin convallis eget libero. Aliquam laoreet tellus ut libero semper, egestas velit malesuada. Sed non risus eget dolor amet vestibulum ullamcorper. Integer feugiat molestie.</p> 
-						</div>
-					</div>
-
-					<div class="col-md-4 panel contact"> 
-						<h3 class="panel-title">Contact Info</h3>
-						<div class="panel-body">
-						<p>Lorem ipsum dolor amet, consectetur adipiscing ipsum dolor.</p>
-						<ul>
-						  <li><i class="fa fa-phone"></i>&nbsp;718-915-3545</li>
-						  <li><a href="#"><i class="fa fa-envelope-o"></i>&nbsp;rejanlikesraisin@gmail.com</a></li>
-						  <li><i class="fa fa-flag"></i>&nbsp;Columbia Mall Drive, Bloomsburg, PA 17815</li>
-						</ul> 
-						</div>
-					</div>
-
-					<div class="col-md-3 panel">
-						<h3 class="panel-title">Follow Us</h3>
-						<div class="panel-body">
-							<p class="follow-me-icons">
-								<a href=""><i class="fa fa-twitter fa-2"></i></a>
-								<a href=""><i class="fa fa-dribbble fa-2"></i></a>
-								<a href=""><i class="fa fa-github fa-2"></i></a>
-								<a href=""><i class="fa fa-facebook fa-2"></i></a>
-								<a href=""><i class="fa fa-youtube fa-2"></i></a>
-								<a href=""><i class="fa fa-pinterest fa-2"></i></a>
-							</p>	
-						</div>
-					</div>
-			
-				</div> <!-- /row of panels -->
-			</div>
-		</div>
-
 		<div class="footer2">
 			<div class="container">
 				<div class="row">
@@ -170,8 +139,6 @@
 							<p class="simplenav">
 								<a href="index.html">Home</a> | 
 								<a href="about.html">About</a> |
-								<a href="services.html">Services</a> |
-								<a href="portfolio.html">Portfolio</a> |
 								<a href="contact.html">Contact</a> 
 							</p>
 						</div>
@@ -200,7 +167,6 @@
 	
 	<!-- Google Maps -->
 	<script src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false"></script>
-	<script src="assets/js/google-map.js"></script>
-
+    <script src="assets/js/google-map.js"></script>
 </body>
 </html>

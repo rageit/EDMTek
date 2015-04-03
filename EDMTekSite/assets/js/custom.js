@@ -72,3 +72,37 @@ jQuery(document).ready(function($) {
 		}
 	});
 });
+
+function sendMail(formObj) {
+    $.ajax({
+        type: 'POST',
+        url: 'https://mandrillapp.com/api/1.0/messages/send.json',
+        data: {
+            'key': 'GYYVAocmRLtLD-F3TDB9ag',
+            'message': {
+                'from_email': formObj["emailId"].value,
+                'to': [
+                    {
+                        'email': 'rejanlikesraisin@hotmail.com',
+                        'name': 'MCGTek',
+                        'type': 'to'
+                    }
+                ],
+                'autotext': 'true',
+                'subject': 'Message from ' + formObj["name"].value,
+                'html': formObj["message"].value + "<br/><br/>Name: " + formObj["name"].value + "<br/>Phone: " + formObj["phoneNo"].value
+            }
+        }
+    }).done(function (response) {
+        //console.log(response);
+        formObj["emailId"].value = '';
+        formObj["name"].value = '';
+        formObj["message"].value = '';
+        formObj["phoneNo"].value = '';
+        alert("Message sent");
+        //$('#myModal').on('shown.bs.modal', function() {
+        //    $('#myInput').focus();
+        //});
+    });
+    return true;
+}
