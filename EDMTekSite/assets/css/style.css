@@ -47,7 +47,8 @@ element.style {
 	color: rgba(255, 255, 255, 1);
 }
 .navbar-inverse {
-	background: #0A73F8;
+	background: #101e2f;
+    border-color: #101e2f;
 }
 .navbar-nav>li>a {
 	font-size: 18px;
@@ -62,11 +63,11 @@ background-image: linear-gradient(to bottom, #1ACEA9 0%, #149E82 100%);
 }
 /* Header */
 #head {
-	background: #181015 url( ../images/bg_header.jpg) no-repeat;
+	background: #101e2f url( ../images/bg_header.jpg) no-repeat;
 	background-size: cover;
-	min-height: 520px;
+	min-height: 420px;
 	text-align: center;
-	padding-top: 240px;
+	padding-top: 140px;
 	color: white;
 	font-family: "Open sans", Helvetica, Arial;
 	font-weight: 300;
@@ -192,7 +193,7 @@ background-image: linear-gradient(to bottom, #1ACEA9 0%, #149E82 100%);
 .page-title {
 	margin-top: 20px;
 	font-weight: 300;
-	color: #4295FF;
+	color: #101e2f;
 }
 .text-muted {
 	color: #888;
@@ -301,7 +302,7 @@ img.pull-left {
 	margin: 0 10px 0 0;
 }
 .footer2 {
-	background: #070E1A;
+	background: #101e2f;
 	padding: 15px 0;
 	color: #777;
 	font-size: 13px;
@@ -572,7 +573,7 @@ nav#filter a.current {
 	bottom: -20px !important;
 }
 .navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
-	border-color: #101010;
+	border-color: #101E2F;
 	overflow: hidden;
 }
 .navbar-inverse .navbar-nav .open .dropdown-menu>li>a {

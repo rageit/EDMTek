@@ -1,7 +1,7 @@
 .da-slider {
 	width: 100%;
 	min-width: 520px;
-	height: 420px;
+	height: 250px;
 	position: relative;
 	margin: 0% auto;
 	overflow: hidden;
@@ -50,7 +50,7 @@
 	font-size: 54px;
 	width: 80%;
 	top: 0px;
-	white-space: nowrap;
+	/*white-space: nowrap;*/
 	z-index: 10;
 	text-shadow: 1px 1px 1px rgba(0,0,0,0.1);
 	font-weight: normal;
@@ -58,11 +58,11 @@
 }
 .da-slide p {
 	width: 80%;
-	top: 115px;
+	top: 15px;
 	color: #fff;
 	font-size: 24px;
-	line-height: 26px;
-	height: 80px;
+	line-height: 16px;
+	height: 10px;
 	overflow: hidden;
 	font-weight: normal;
 	text-align: center;
@@ -70,8 +70,8 @@
 .da-slide .da-img {
 	text-align: center;
 	width: 30%;
-	top: 70px;
-	height: 256px;
+	top: 10px;
+	height: 16px;
 	line-height: 320px;
 	left: 110%; /*60%*/
 }

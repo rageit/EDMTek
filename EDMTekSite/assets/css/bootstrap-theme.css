@@ -1,10 +1,10 @@
 /*******************************/
 /*         Navigatioin         */
 /*******************************/
-.navbar-inverse { border-radius: 0; background:rgba(0, 0, 0, .8); border-bottom:1px solid rgba(255, 255, 255, 0.15); min-height:100px; padding-top:25px; margin-bottom:0;}
+.navbar-inverse { border-radius: 0; background:rgba(16,30,47, .8); min-height:100px; padding-top:25px; margin-bottom:0;}
 .navbar-inverse *:focus { outline: 0; }
 @media (max-width: 767px) {
-	.navbar-inverse {  background:rgba(0,0,0,.9); }
+	.navbar-inverse {  background:rgba(16,30,47,.9); }
 }
 
 .navbar-inverse .navbar-nav > li > a,
@@ -28,7 +28,7 @@
 .navbar-nav .dropdown-menu {
 	left:-5px;
 	font-size: 13px;
-	background-color: rgba(0, 0, 0, .7);
+	background-color: rgba(16,30,47, .7);
 	border: 0px none;
 	-webkit-border-radius: 0px; -moz-border-radius: 0px; border-radius: 0px;
 	-webkit-box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175); box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175);
