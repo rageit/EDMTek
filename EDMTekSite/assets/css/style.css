@@ -16,8 +16,8 @@ label {
 	color: #777;
 }
 .label-info{
-    background-color: #d44900;
-    color: #fff;
+	background-color: #d44900;
+	color: #fff;
 }
 .herotxt h2 {
 	font-size: 35px;
@@ -50,7 +50,7 @@ element.style {
 }
 .navbar-inverse {
 	background: #121a23;
-    border-color: #121a23;
+	border-color: #121a23;
 }
 .navbar-nav>li>a {
 	font-size: 18px;
@@ -59,23 +59,23 @@ element.style {
 z-index: 9999;
 }
 .btn-action, .btn-primary {
-    color: #FFEFD7;
-    background: #09bed9;
-    /*background-image: -webkit-linear-gradient(top, #1ACEA9 0%, #149E82 100%);
-    background-image: linear-gradient(to bottom, #1ACEA9 0%, #149E82 100%);*/
-    /* Note: This gradient may render differently in browsers that don't support the unprefixed gradient syntax */
-    /* IE10 Consumer Preview */
-    background-image: -ms-linear-gradient(top left, #1ACEA9 0%, #149E82 100%);
-    /* Mozilla Firefox */
-    background-image: -moz-linear-gradient(top left, #1ACEA9 0%, #149E82 100%);
-    /* Opera */
-    background-image: -o-linear-gradient(top left, #1ACEA9 0%, #149E82 100%);
-    /* Webkit (Safari/Chrome 10) */
-    background-image: -webkit-gradient(linear, left top, right bottom, color-stop(0, #1ACEA9), color-stop(1, #149E82));
-    /* Webkit (Chrome 11+) */
-    background-image: -webkit-linear-gradient(top left, #1ACEA9 0%, #149E82 100%);
-    /* W3C Markup, IE10 Release Preview */
-    background-image: linear-gradient(to bottom right, #1ACEA9 0%, #149E82 100%);
+	color: #FFEFD7;
+	background: #09bed9;
+	/*background-image: -webkit-linear-gradient(top, #1ACEA9 0%, #149E82 100%);
+	background-image: linear-gradient(to bottom, #1ACEA9 0%, #149E82 100%);*/
+	/* Note: This gradient may render differently in browsers that don't support the unprefixed gradient syntax */
+	/* IE10 Consumer Preview */
+	background-image: -ms-linear-gradient(top left, #1ACEA9 0%, #149E82 100%);
+	/* Mozilla Firefox */
+	background-image: -moz-linear-gradient(top left, #1ACEA9 0%, #149E82 100%);
+	/* Opera */
+	background-image: -o-linear-gradient(top left, #1ACEA9 0%, #149E82 100%);
+	/* Webkit (Safari/Chrome 10) */
+	background-image: -webkit-gradient(linear, left top, right bottom, color-stop(0, #1ACEA9), color-stop(1, #149E82));
+	/* Webkit (Chrome 11+) */
+	background-image: -webkit-linear-gradient(top left, #1ACEA9 0%, #149E82 100%);
+	/* W3C Markup, IE10 Release Preview */
+	background-image: linear-gradient(to bottom right, #1ACEA9 0%, #149E82 100%);
 }
 /* Header */
 #head {
@@ -278,7 +278,7 @@ img.pull-left {
 	padding: 10px 0 0 0;
 	font-size: 12px;
 	color: #999;
-    margin: 10px 0 0 0;
+	margin: 10px 0 0 0;
 }
 .footer1 a {
 	color: #ccc;
@@ -348,14 +348,14 @@ img.pull-left {
 }
 /* carousel */
 .carousel {
-    position: static;
+	position: static;
 }
 #quote-carousel {
-    margin-bottom: 0;
-    /*margin-top: 60px;*/
-    padding: 10px 40px;
-    height: 220px;
-    min-height: 220px;
+	margin-bottom: 0;
+	/*margin-top: 60px;*/
+	padding: 10px 40px;
+	height: 220px;
+	min-height: 220px;
 }
 /* Control buttons  */
 #quote-carousel .carousel-control {
@@ -365,13 +365,13 @@ img.pull-left {
 	padding-top: 80px;
 }
 /* Previous button  */
-    #quote-carousel .carousel-control.left {
-        left: -12px;
-    }
+	#quote-carousel .carousel-control.left {
+		left: -12px;
+	}
 /* Next button  */
-    #quote-carousel .carousel-control.right {
-        right: -12px !important;
-    }
+	#quote-carousel .carousel-control.right {
+		right: -12px !important;
+	}
 /* Changes the position of the indicators */
 #quote-carousel .carousel-indicators {
 	right: 50%;
@@ -395,49 +395,50 @@ img.pull-left {
 	background: #333333;
 }
 .carousel-control {
-    width: 10%;
+	width: 10%;
 }
 
 
 /* Small devices (tablets, 768px and up) */
 @media (max-width: 767px) {
-    .navbar-collapse ul {
-        text-align: right;
-        margin-right: 0px;
-    }
+	.navbar-collapse ul {
+		text-align: right;
+		margin-right: 0px;
+	}
 }
 @media (min-width: 768px) {
-    #quote-carousel {
-        margin-bottom: 0;
-        padding: 10px 40px 10px 40px;
-        /*margin-top: 60px;*/
-    }
+	#quote-carousel {
+		margin-bottom: 0;
+		padding: 10px 40px 10px 40px;
+		/*margin-top: 60px;*/
+	}
 }
 /* Small devices (tablets, up to 768px) */
 @media (max-width: 768px) {
-    /* Make the indicators larger for easier clicking with fingers/thumb on mobile */
-    #quote-carousel .carousel-indicators {
-        bottom: -20px !important;
+	/* Make the indicators larger for easier clicking with fingers/thumb on mobile */
+    #quote-carousel{
+        height: 300px;
     }
-    .navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
-        border-color: #121a23;
-        overflow: hidden;
-    }
-    .navbar-inverse .navbar-nav .open .dropdown-menu > li > a {
-        color: #fff;
-    }
-    #quote-carousel .carousel-indicators li {
-        display: inline-block;
-        margin: 0px 5px;
-        width: 25px;
-        height: 15px;
-        border-radius: 0px !important;
-    }
-        #quote-carousel .carousel-indicators li.active {
-            margin: 0px 5px;
-            width: 20px;
-            height: 20px;
-        }
+	#quote-carousel .carousel-indicators {
+		bottom: -20px !important;
+	}
+	.navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
+		border-color: #121a23;
+		overflow: hidden;
+	}
+	.navbar-inverse .navbar-nav .open .dropdown-menu > li > a {
+		color: #fff;
+	}
+	#quote-carousel .carousel-indicators li {
+		display: inline-block;
+		margin: 0px 5px;
+		width: 25px;
+		border-radius: 0px !important;
+	}
+		#quote-carousel .carousel-indicators li.active {
+			margin: 0px 5px;
+			width: 25px;
+		}
 }
 /* End carousel */
 
@@ -605,63 +606,63 @@ nav#filter a.current {
 */
 /* Small devices (tablets, 768px and up) */
 @media (max-width: 768px) { 
-    .da-slider h2{
-        font-size: 35px;
-    }
-    #head {
-        min-height: 420px;
-        padding-top: 160px;
-    }
-        #head .lead {
-            font-size: 34px;
-        }
-    .highlight{
-        border-left: 0;
-        border-top: 1px solid rgba(255, 255, 255, 0.16);
-    }
+	.da-slider h2{
+		font-size: 35px;
+	}
+	#head {
+		min-height: 420px;
+		padding-top: 140px;
+	}
+		#head .lead {
+			font-size: 34px;
+		}
+	.highlight{
+		border-left: 0;
+		border-top: 1px solid rgba(255, 255, 255, 0.16);
+	}
 }
 
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) { 
-    .da-slider h2{
-        font-size: 40px;
-    }
-    .highlight{
-        border-left: 0;
-        border-top: 1px solid rgba(255, 255, 255, 0.16);
-    }
+	.da-slider h2{
+		font-size: 40px;
+	}
+	.highlight{
+		border-left: 0;
+		border-top: 1px solid rgba(255, 255, 255, 0.16);
+	}
 }
 
 /* Medium devices (desktops, 992px and up) */
 @media (min-width: 992px) { 
-    .da-slider h2{
-        font-size: 50px;
-    }
-    .h-caption h4{
-        font-size: 20px;
-    }
-    .highlight{
-        border-left: 1px solid rgba(255, 255, 255, 0.16);
-        border-top: 0;
-    }
+	.da-slider h2{
+		font-size: 50px;
+	}
+	.h-caption h4{
+		font-size: 20px;
+	}
+	.highlight{
+		border-left: 1px solid rgba(255, 255, 255, 0.16);
+		border-top: 0;
+	}
 }
 
 /* Large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
-    .da-slider h2{
-        font-size: 54px;
-    }
-    .highlight{
-        border-left: 1px solid rgba(255, 255, 255, 0.16);
-        border-top: 0;
-    }
+	.da-slider h2{
+		font-size: 54px;
+	}
+	.highlight{
+		border-left: 1px solid rgba(255, 255, 255, 0.16);
+		border-top: 0;
+	}
 }
 
 /* Font-awesome*/
 .testimonials .testimonials-header .badge {
-    background-color: #d44900;
-    color: #fff;
+	background-color: #d44900;
+	color: #fff;
 }
 .testimonials .testimonials-header{
-    margin-bottom: 5px;
+	margin-bottom: 5px;
 }
