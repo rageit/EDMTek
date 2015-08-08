@@ -455,6 +455,9 @@ img.pull-left {
 	float: left;
 	margin-right: 10px;
 }
+blockquote .innerquote{
+    color: #d44900;
+}
 .contact ul {
 	padding: 0px;
 }
@@ -665,4 +668,9 @@ nav#filter a.current {
 }
 .testimonials .testimonials-header{
 	margin-bottom: 5px;
+}
+
+.bar{
+    border-left: 5px solid #d44900;
+    padding-left: 5px;
 }

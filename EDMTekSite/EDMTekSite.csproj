@@ -19,6 +19,7 @@
     <IISExpressAnonymousAuthentication />
     <IISExpressWindowsAuthentication />
     <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -57,6 +58,8 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="aboutAlt.html" />
+    <Content Include="aboutCopy.html" />
     <Content Include="assets\fonts\fontawesome-webfont.eot" />
     <Content Include="assets\fonts\fontawesome-webfont.ttf" />
     <Content Include="assets\fonts\fontawesome-webfont.woff" />
@@ -126,6 +129,8 @@
     <Content Include="index.html" />
     <Content Include="portfolio.html" />
     <Content Include="services.html" />
+    <Content Include="servicesCopy.html" />
+    <Content Include="servicesAlt.html" />
     <Content Include="sidebar-left.html" />
     <Content Include="sidebar-right.html" />
     <Content Include="Web.config" />
